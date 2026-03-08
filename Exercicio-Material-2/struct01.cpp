@@ -31,7 +31,7 @@ int main()
 
     cout << "\nDeseja Continuar? (S ou N): ";
     cin >> continuar;
-      cin.ignore();
+    cin.ignore();
     }
     while(continuar == 's' || continuar == 'S');
     
